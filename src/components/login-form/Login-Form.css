@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline gray;
+
+}
+
+.brand-logo {
+    max-width: 10rem;
+}
+
+.MuiInput-formControl {
+    margin: 15px 0px;
+}
+
+.forgot-password {
+    text-align: end;
+    margin-top: 15px;
+}
+
+.login-button {
+    margin: 15px 0px !important;
+    color: white !important;
+    background-color: green !important;
+}
+
+.logo-container {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-terms {
+    padding: 0px 0px;
+}
+
+.page-terms a {
+    color: #3f51b5;
+}

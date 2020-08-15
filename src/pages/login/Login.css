@@ -1,58 +1,44 @@
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline gray;
-
-}
-
-.brand-logo {
-    max-width: 150px;
-}
-
-.forgot-password {
-    text-align: end;
-    margin-top: 10px;
-}
-
 .login {
-    margin: 20px;
+    margin: 0px 0px 0px 10px;
     display: flex;
-    align-content: center;
+    height: 100%;
     text-align: justify;
-}
-.login-button {
-    margin-top: 30px !important;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .login-carousel {
     display: flex;
+    flex: 1;
+    margin-left: 20px;
 }
 
 .login-form {
     display: flex;
-    flex: 0.3;
-    padding: 0px 0px 0px 50px;
-    flex-flow: column;
-    align-content: center;
-    justify-content: center;   
-}
-
-.logo-container {
-    display: flex;
+    flex: 0.4;
     flex-flow: column;
     align-content: center;
     justify-content: center;
-    text-align: center;
+    padding: 0px 50px;
 }
 
-.page-terms {
-    padding: 0px 25px;
-}
+@media (max-width: 959px) {
+    .login {
+        margin: 0px;
+        flex-flow: column;
+    }
+    .login-form {
+        flex: 1;
+        padding: 0px 100px;
+    }
+    .login-carousel {
+        display: none;
+    }
+  }
 
-.page-terms a {
-    color: #3f51b5;
+@media (max-width: 450px) {
+    .login-form {
+        flex: 1;
+        padding: 0px 20px;
+    }
 }
