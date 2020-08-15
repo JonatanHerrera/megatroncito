@@ -1,0 +1,58 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline gray;
+
+}
+
+.brand-logo {
+    max-width: 150px;
+}
+
+.forgot-password {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.login {
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    text-align: justify;
+}
+.login-button {
+    margin-top: 30px !important;
+}
+
+.login-carousel {
+    display: flex;
+}
+
+.login-form {
+    display: flex;
+    flex: 0.3;
+    padding: 0px 0px 0px 50px;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;   
+}
+
+.logo-container {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-terms {
+    padding: 0px 25px;
+}
+
+.page-terms a {
+    color: #3f51b5;
+}
