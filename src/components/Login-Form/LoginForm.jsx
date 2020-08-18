@@ -9,7 +9,7 @@ const LoginForm = () => {
         <React.Fragment>
         <div className = "General-Container-Login">
         <div className = "Logo-Container" > 
-                <img  className  = "Login_Logo"  src="https://movinova.blob.core.windows.net/900845084/LogoPrime.png" alt="Logo_Login"/>
+                <img  className  = "Login_Logo"  src="http://www.pngmart.com/files/13/Megatron-Transparent-Background.png" alt="Logo_Login"/>
         </div>
         <div className = "Form-Container" >  
                 <div className="Hello-continer">
