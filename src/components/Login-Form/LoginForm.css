@@ -1,0 +1,43 @@
+
+.Login_Logo{
+    height: 69px;
+    margin-bottom: 50px;
+}
+
+
+.General-Container-Login{
+    padding: 20px;
+    height: 100vh;
+    min-width: 470px;   
+    display: flex;  
+    flex-direction: column;    
+    place-content: center;
+    align-items: center; 
+    
+  
+}
+
+.Form-Container{
+    display: flex;
+    flex-direction: column;
+}
+.Hello-continer, .Please-container {
+    margin :0;    
+    text-align: center;
+    font-weight: 450 ;
+    font-size: 18px ;
+}
+.Please-container{
+    margin-bottom: 10px;
+}
+
+.Forgot-Container {
+    margin-top: 20px;
+    text-align: right;
+    margin-bottom: 80px;
+}
+.Terms-Container{
+    margin-top: 20px;
+    
+ 
+}
